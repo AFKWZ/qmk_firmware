@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 ),
 /* QMK
  * ,-----------------------------------------.                    ,-----------------------------------------.
- * |RESET |EEPROM|      |      |      |  /   |                    |  /   |      |      |      |EEPROM|RESET |
+ * |RESET |EEPROM|      |      |      |RGB ON|                    |RGB ON|      |      |      |EEPROM|RESET |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * |      |      |      |      |      |      |                    |      |      |      |      |      |      |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 
 [_QMK] = LAYOUT(
-  QK_BOOT,  EE_CLR,   XXXXXXX,  XXXXXXX,  XXXXXXX,  KC_SLSH,                      KC_SLSH,  XXXXXXX,  XXXXXXX,  XXXXXXX,  EE_CLR,   QK_BOOT,
+  QK_BOOT,  EE_CLR,   XXXXXXX,  XXXXXXX,  XXXXXXX,  RGB_TOG,                      RGB_TOG,  XXXXXXX,  XXXXXXX,  XXXXXXX,  EE_CLR,   QK_BOOT,
   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,                      XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,                      XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
   XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,
