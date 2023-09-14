@@ -57,7 +57,7 @@
 
 ### OLED
 #### Master Side
-![Masters_Side](https://github.com/AFKWZ/qmk_firmware/assets/142926428/f59bc428-b41b-44e6-b5a4-0920cd6ce6d8)
+![MastersSide](https://github.com/AFKWZ/qmk_firmware/assets/142926428/7c76a58b-12b5-4826-8479-391b265f4a4d)
 
 - Active Layer
 - Matrix Coordinates and Keycode
@@ -65,7 +65,7 @@
 - RGB Mode and HSV Values
 
 #### Slave Side
-![Slave_Side](https://github.com/AFKWZ/qmk_firmware/assets/142926428/e2309ab7-ea79-4cfe-8d77-0288af9c8951)
+![SlaveSide](https://github.com/AFKWZ/qmk_firmware/assets/142926428/7aaad7d1-b62e-400b-9f75-cea2173aa63d)
 
 - Lily58 Logo
 
