@@ -17,6 +17,7 @@
                   |      |      |      |/       /         \      \ |      |      |      |
                   `----------------------------'           '------''--------------------'
 ```
+> ` [|ADJ `: Tap for ` [ `, hold for **ADJUST** layer
 ### **COLEMAK-DH** Layer
 ```
 ,-----------------------------------------.                    ,-----------------------------------------.
@@ -62,7 +63,7 @@
                   |      |      |      |/       /         \      \ |      |      |      |
                   `----------------------------'           '------''--------------------'
 ```
-> `RGB ON` added again to ensure that the keyboard is in the **QMK** layer
+> `RGB ON` added as a check to test whether the keyboard is in the **QMK** layer
 
 ## Keyboard
 ### Features
