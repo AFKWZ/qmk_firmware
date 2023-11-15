@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------| [|ADJ |    | ]|ADJ |------+------+------+------+------+------|
  * |LShift|  Z   |  X   |  C   |  V   |  B   |-------|    |-------|  N   |  M   |  ,   |  .   |  /   |RShift|
  * `-----------------------------------------/       /     \      \-----------------------------------------'
- *                   | LAlt | LGUI | Del  | /Space  /       \Enter \  |BackSP| Left |Right |
+ *                   | LGUI | LAlt | Del  | /Space  /       \Enter \  |BackSP| Left |Right |
  *                   |      |      |      |/       /         \      \ |      |      |      |
  *                   `----------------------------'           '------''--------------------'
  */
@@ -31,7 +31,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TAB,   KC_Q,  KC_W,     KC_E,     KC_R,    KC_T,                                                  KC_Y,    KC_U,     KC_I,     KC_O,    KC_P,    KC_MINS,
   KC_LCTL,  KC_A,  KC_S,     KC_D,     KC_F,    KC_G,                                                  KC_H,    KC_J,     KC_K,     KC_L,    KC_SCLN, KC_QUOT,
   KC_LSFT,  KC_Z,  KC_X,     KC_C,     KC_V,    KC_B,    LT(_ADJUST, KC_LBRC),  LT(_ADJUST, KC_RBRC),  KC_N,    KC_M,     KC_COMM,  KC_DOT,  KC_SLSH, KC_RSFT,
-                   KC_LALT,  KC_LGUI,  KC_DEL,  KC_SPC,                                                KC_ENT,  KC_BSPC,  KC_LEFT,  KC_RGHT
+                   KC_LGUI,  KC_LALT,  KC_DEL,  KC_SPC,                                                KC_ENT,  KC_BSPC,  KC_LEFT,  KC_RGHT
 ),
 /* COLEMAK DH
  * ,-----------------------------------------.                    ,-----------------------------------------.
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------| [|ADJ |    | ]|ADJ |------+------+------+------+------+------|
  * |LShift|  Z   |  X   |  C   |  D   |  V   |-------|    |-------|  K   |  H   |  ,   |  .   |  /   |RShift|
  * `-----------------------------------------/       /     \      \-----------------------------------------'
- *                   | LAlt | LGUI | Del  | /Space  /       \Enter \  |BackSP| Left |Right |
+ *                   | LGUI | LAlt | Del  | /Space  /       \Enter \  |BackSP| Left |Right |
  *                   |      |      |      |/       /         \      \ |      |      |      |
  *                   `----------------------------'           '------''--------------------'
  */
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TAB,   KC_Q,  KC_W,     KC_F,     KC_P,    KC_B,                                                  KC_J,    KC_L,     KC_U,     KC_Y,    KC_SCLN,  KC_MINS,
   KC_LCTL,  KC_A,  KC_R,     KC_S,     KC_T,    KC_G,                                                  KC_M,    KC_N,     KC_E,     KC_I,    KC_O,     KC_QUOT,
   KC_LSFT,  KC_Z,  KC_X,     KC_C,     KC_D,    KC_V,    LT(_ADJUST, KC_LBRC),  LT(_ADJUST, KC_RBRC),  KC_K,    KC_H,     KC_COMM,  KC_DOT,  KC_SLSH,  KC_RSFT,
-                   KC_LALT,  KC_LGUI,  KC_DEL,  KC_SPC,                                                KC_ENT,  KC_BSPC,  KC_LEFT,  KC_RGHT
+                   KC_LGUI,  KC_LALT,  KC_DEL,  KC_SPC,                                                KC_ENT,  KC_BSPC,  KC_LEFT,  KC_RGHT
 ),
 /* ADJUST
  * ,-----------------------------------------.                    ,-----------------------------------------.
@@ -65,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|       |    |       |------+------+------+------+------+------|
  * |LShift|Swirl |Rainb |Breath|Plain | QMK  |-------|    |-------| QMK  | Left | Down |Right | End  | PgDn |
  * `-----------------------------------------/       /     \      \-----------------------------------------'
- *                   | LAlt | LGUI | Del  | /Space  /       \Enter \  |BackSP| Left |Right |
+ *                   | LGUI | LAlt | Del  | /Space  /       \Enter \  |BackSP| Left |Right |
  *                   |      |      |      |/       /         \      \ |      |      |      |
  *                   `----------------------------'           '------''--------------------'
  */
